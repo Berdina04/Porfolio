@@ -27,7 +27,7 @@ const TMDB = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            This app was built using React JS and Node Js, using the TMDB API, where you can searh for movies, add to favorites, and get the movie's description.
+            This app was built using React JS and Node Js, using the TMDB API, where you can searh for movies, add to favorites, and get the movies description.
           </p>
           <a
             href='https://github.com/Berdina04/TMDB'

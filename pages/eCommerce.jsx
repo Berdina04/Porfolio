@@ -27,7 +27,7 @@ const ecommerce = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p>
-            With a group of 5, we've build this e-commerce, to demostrate the skills for front-end and back-end, in this app you are able to search for different sneakers, add to the shopping car and create an user to see your purchases.
+            With a group of 5, we have build this e-commerce, to demostrate the skills for front-end and back-end, in this app you are able to search for different sneakers, add to the shopping car and create an user to see your purchases.
           </p>
           <a
             href='https://github.com/Berdina04/E-commerce01'
