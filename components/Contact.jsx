@@ -15,11 +15,11 @@ const Contact = () => {
   const [message, setMessage] = useState('');
 
   const handleSubmit = () => {
-    setName('');
-    setPhone('');
-    setEmail('');
-    setSubject('');
-    setMessage('');
+    setName(name);
+    setPhone(phone);
+    setEmail(email);
+    setSubject(subject);
+    setMessage(message);
   };
 
   return (
@@ -41,7 +41,7 @@ const Contact = () => {
                 />
               </div>
               <div>
-                <h2 className='py-2'>Clint Briley</h2>
+                <h2 className='py-2'>Fabrizio Berdina</h2>
                 <p>Front-End Developer</p>
                 <p className='py-4'>
                   I am available for freelance or full-time positions. Contact
@@ -52,7 +52,7 @@ const Contact = () => {
                 <p className='uppercase pt-8'>Connect With Me</p>
                 <div className='flex items-center justify-between py-4'>
                   <a
-                    href='https://www.linkedin.com/in/clint-briley-50056920a/'
+                    href='https://www.linkedin.com/in/fabrizio-berdi%C3%B1a/'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -61,7 +61,7 @@ const Contact = () => {
                     </div>
                   </a>
                   <a
-                    href='https://github.com/fireclint'
+                    href='https://github.com/Berdina04'
                     target='_blank'
                     rel='noreferrer'
                   >
@@ -73,13 +73,14 @@ const Contact = () => {
                   <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
                     <AiOutlineMail />
                   </div>
-                  <Link href='/resume'>
-                    <a>
-                      <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
-                        <BsFillPersonLinesFill />
-                      </div>
-                    </a>
-                  </Link>
+                  <a
+                    href='../public/assets/cvfinal5.pdf'
+                    download
+                  >
+                    <div className='rounded-full shadow-lg shadow-gray-400 p-6 cursor-pointer hover:scale-110 ease-in duration-300'>
+                      <BsFillPersonLinesFill />
+                    </div>
+                  </a>
                 </div>
               </div>
             </div>
@@ -90,7 +91,7 @@ const Contact = () => {
             <div className='p-4'>
               <form
                 onSubmit={handleSubmit}
-                action='https://getform.io/f/08ebcd37-f5b5-45be-8c13-714f011ce060'
+                action='https://getform.io/f/1873963c-742a-40d3-9e40-937bb4a87db5'
                 method='POST'
               >
                 <div className='grid md:grid-cols-2 gap-4 w-full py-2'>
